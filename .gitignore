@@ -1,0 +1,6 @@
+data/*.txt
+data/*.gz
+src/pagerank
+src/graph_info
+pagerank
+*.o

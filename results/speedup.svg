@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="550">
+<rect width="100%" height="100%" fill="white"/>
+<text x="450.0" y="35" text-anchor="middle" font-size="24" font-family="Arial">Speedup de PageRank con OpenMP</text>
+<line x1="90" y1="60" x2="90" y2="470" stroke="black"/>
+<line x1="90" y1="470" x2="860" y2="470" stroke="black"/>
+<line x1="90.0" y1="470" x2="90.0" y2="476" stroke="black"/>
+<text x="90.0" y="498" text-anchor="middle" font-size="14" font-family="Arial">1</text>
+<line x1="200.0" y1="470" x2="200.0" y2="476" stroke="black"/>
+<text x="200.0" y="498" text-anchor="middle" font-size="14" font-family="Arial">2</text>
+<line x1="420.0" y1="470" x2="420.0" y2="476" stroke="black"/>
+<text x="420.0" y="498" text-anchor="middle" font-size="14" font-family="Arial">4</text>
+<line x1="860.0" y1="470" x2="860.0" y2="476" stroke="black"/>
+<text x="860.0" y="498" text-anchor="middle" font-size="14" font-family="Arial">8</text>
+<line x1="84" y1="470.0" x2="90" y2="470.0" stroke="black"/>
+<line x1="90" y1="470.0" x2="860" y2="470.0" stroke="#dddddd"/>
+<text x="78" y="475.0" text-anchor="end" font-size="13" font-family="Arial">0.00</text>
+<line x1="84" y1="388.0" x2="90" y2="388.0" stroke="black"/>
+<line x1="90" y1="388.0" x2="860" y2="388.0" stroke="#dddddd"/>
+<text x="78" y="393.0" text-anchor="end" font-size="13" font-family="Arial">0.58</text>
+<line x1="84" y1="306.0" x2="90" y2="306.0" stroke="black"/>
+<line x1="90" y1="306.0" x2="860" y2="306.0" stroke="#dddddd"/>
+<text x="78" y="311.0" text-anchor="end" font-size="13" font-family="Arial">1.17</text>
+<line x1="84" y1="223.99999999999997" x2="90" y2="223.99999999999997" stroke="black"/>
+<line x1="90" y1="223.99999999999997" x2="860" y2="223.99999999999997" stroke="#dddddd"/>
+<text x="78" y="228.99999999999997" text-anchor="end" font-size="13" font-family="Arial">1.75</text>
+<line x1="84" y1="142.0" x2="90" y2="142.0" stroke="black"/>
+<line x1="90" y1="142.0" x2="860" y2="142.0" stroke="#dddddd"/>
+<text x="78" y="147.0" text-anchor="end" font-size="13" font-family="Arial">2.33</text>
+<line x1="84" y1="60.0" x2="90" y2="60.0" stroke="black"/>
+<line x1="90" y1="60.0" x2="860" y2="60.0" stroke="#dddddd"/>
+<text x="78" y="65.0" text-anchor="end" font-size="13" font-family="Arial">2.91</text>
+<text x="450.0" y="525" text-anchor="middle" font-size="16" font-family="Arial">Número de hilos</text>
+<text x="25" y="275.0" text-anchor="middle" font-size="16" font-family="Arial" transform="rotate(-90 25 275.0)">Speedup</text>
+<polyline points="90.0,329.2492147136065 200.0,261.30881065586425 420.0,233.48238040474428 860.0,162.9943871333184" fill="none" stroke="#1f77b4" stroke-width="3"/>
+<circle cx="90.0" cy="329.2492147136065" r="5" fill="#1f77b4"/>
+<circle cx="200.0" cy="261.30881065586425" r="5" fill="#1f77b4"/>
+<circle cx="420.0" cy="233.48238040474428" r="5" fill="#1f77b4"/>
+<circle cx="860.0" cy="162.9943871333184" r="5" fill="#1f77b4"/>
+<polyline points="90.0,329.2492147136065 200.0,292.4288092826859 420.0,239.85839097821793 860.0,166.66798262929325" fill="none" stroke="#ff7f0e" stroke-width="3"/>
+<circle cx="90.0" cy="329.2492147136065" r="5" fill="#ff7f0e"/>
+<circle cx="200.0" cy="292.4288092826859" r="5" fill="#ff7f0e"/>
+<circle cx="420.0" cy="239.85839097821793" r="5" fill="#ff7f0e"/>
+<circle cx="860.0" cy="166.66798262929325" r="5" fill="#ff7f0e"/>
+<polyline points="90.0,329.2492147136065 200.0,234.05945862441854 420.0,142.99370054412185 860.0,113.47826086956519" fill="none" stroke="#2ca02c" stroke-width="3"/>
+<circle cx="90.0" cy="329.2492147136065" r="5" fill="#2ca02c"/>
+<circle cx="200.0" cy="234.05945862441854" r="5" fill="#2ca02c"/>
+<circle cx="420.0" cy="142.99370054412185" r="5" fill="#2ca02c"/>
+<circle cx="860.0" cy="113.47826086956519" r="5" fill="#2ca02c"/>
+<rect x="690" y="70" width="14" height="14" fill="#1f77b4"/>
+<text x="712" y="82" font-size="14" font-family="Arial">web-Stanford</text>
+<rect x="690" y="95" width="14" height="14" fill="#ff7f0e"/>
+<text x="712" y="107" font-size="14" font-family="Arial">web-Google</text>
+<rect x="690" y="120" width="14" height="14" fill="#2ca02c"/>
+<text x="712" y="132" font-size="14" font-family="Arial">web-BerkStan</text>
+</svg>

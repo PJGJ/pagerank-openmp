@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="550">
+<rect width="100%" height="100%" fill="white"/>
+<text x="450.0" y="35" text-anchor="middle" font-size="24" font-family="Arial">Tiempo promedio de PageRank con OpenMP</text>
+<line x1="90" y1="60" x2="90" y2="470" stroke="black"/>
+<line x1="90" y1="470" x2="860" y2="470" stroke="black"/>
+<line x1="90.0" y1="470" x2="90.0" y2="476" stroke="black"/>
+<text x="90.0" y="498" text-anchor="middle" font-size="14" font-family="Arial">1</text>
+<line x1="200.0" y1="470" x2="200.0" y2="476" stroke="black"/>
+<text x="200.0" y="498" text-anchor="middle" font-size="14" font-family="Arial">2</text>
+<line x1="420.0" y1="470" x2="420.0" y2="476" stroke="black"/>
+<text x="420.0" y="498" text-anchor="middle" font-size="14" font-family="Arial">4</text>
+<line x1="860.0" y1="470" x2="860.0" y2="476" stroke="black"/>
+<text x="860.0" y="498" text-anchor="middle" font-size="14" font-family="Arial">8</text>
+<line x1="84" y1="470.0" x2="90" y2="470.0" stroke="black"/>
+<line x1="90" y1="470.0" x2="860" y2="470.0" stroke="#dddddd"/>
+<text x="78" y="475.0" text-anchor="end" font-size="13" font-family="Arial">0.00</text>
+<line x1="84" y1="388.0" x2="90" y2="388.0" stroke="black"/>
+<line x1="90" y1="388.0" x2="860" y2="388.0" stroke="#dddddd"/>
+<text x="78" y="393.0" text-anchor="end" font-size="13" font-family="Arial">0.57</text>
+<line x1="84" y1="306.0" x2="90" y2="306.0" stroke="black"/>
+<line x1="90" y1="306.0" x2="860" y2="306.0" stroke="#dddddd"/>
+<text x="78" y="311.0" text-anchor="end" font-size="13" font-family="Arial">1.14</text>
+<line x1="84" y1="224.0" x2="90" y2="224.0" stroke="black"/>
+<line x1="90" y1="224.0" x2="860" y2="224.0" stroke="#dddddd"/>
+<text x="78" y="229.0" text-anchor="end" font-size="13" font-family="Arial">1.71</text>
+<line x1="84" y1="142.0" x2="90" y2="142.0" stroke="black"/>
+<line x1="90" y1="142.0" x2="860" y2="142.0" stroke="#dddddd"/>
+<text x="78" y="147.0" text-anchor="end" font-size="13" font-family="Arial">2.28</text>
+<line x1="84" y1="60.0" x2="90" y2="60.0" stroke="black"/>
+<line x1="90" y1="60.0" x2="860" y2="60.0" stroke="#dddddd"/>
+<text x="78" y="65.0" text-anchor="end" font-size="13" font-family="Arial">2.85</text>
+<text x="450.0" y="525" text-anchor="middle" font-size="16" font-family="Arial">Número de hilos</text>
+<text x="25" y="275.0" text-anchor="middle" font-size="16" font-family="Arial" transform="rotate(-90 25 275.0)">Tiempo promedio</text>
+<polyline points="90.0,390.1696719641768 200.0,416.15974300153533 420.0,422.4921379516854 860.0,433.4010404032624" fill="none" stroke="#1f77b4" stroke-width="3"/>
+<circle cx="90.0" cy="390.1696719641768" r="5" fill="#1f77b4"/>
+<circle cx="200.0" cy="416.15974300153533" r="5" fill="#1f77b4"/>
+<circle cx="420.0" cy="422.4921379516854" r="5" fill="#1f77b4"/>
+<circle cx="860.0" cy="433.4010404032624" r="5" fill="#1f77b4"/>
+<polyline points="90.0,113.47826086956519 200.0,187.41066704864204 420.0,251.9615927512958 860.0,304.5676755185641" fill="none" stroke="#ff7f0e" stroke-width="3"/>
+<circle cx="90.0" cy="113.47826086956519" r="5" fill="#ff7f0e"/>
+<circle cx="200.0" cy="187.41066704864204" r="5" fill="#ff7f0e"/>
+<circle cx="420.0" cy="251.9615927512958" r="5" fill="#ff7f0e"/>
+<circle cx="860.0" cy="304.5676755185641" r="5" fill="#ff7f0e"/>
+<polyline points="90.0,295.72863858619166 200.0,366.03496515073755 420.0,394.9888970386585 860.0,401.1996452810795" fill="none" stroke="#2ca02c" stroke-width="3"/>
+<circle cx="90.0" cy="295.72863858619166" r="5" fill="#2ca02c"/>
+<circle cx="200.0" cy="366.03496515073755" r="5" fill="#2ca02c"/>
+<circle cx="420.0" cy="394.9888970386585" r="5" fill="#2ca02c"/>
+<circle cx="860.0" cy="401.1996452810795" r="5" fill="#2ca02c"/>
+<rect x="690" y="70" width="14" height="14" fill="#1f77b4"/>
+<text x="712" y="82" font-size="14" font-family="Arial">web-Stanford</text>
+<rect x="690" y="95" width="14" height="14" fill="#ff7f0e"/>
+<text x="712" y="107" font-size="14" font-family="Arial">web-Google</text>
+<rect x="690" y="120" width="14" height="14" fill="#2ca02c"/>
+<text x="712" y="132" font-size="14" font-family="Arial">web-BerkStan</text>
+</svg>
